@@ -38,6 +38,7 @@ else:
 
 # Ask a user to enter their move
 player_move = input("enter your move: ")
+player_move = player_move.lower()
 
 # Print the rock, paper, or scissors ASCII art that corresponds to the player's move
 print("Your move:")
